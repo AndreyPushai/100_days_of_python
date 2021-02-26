@@ -28,8 +28,8 @@ def start_timer(timer_value, time_delta):
 		time_delta = timedelta(seconds=timer_value)
 		time.sleep(1)
 		print(time_delta)
-
-	print("Time is over!")
+	else:
+		print("Time is over!")
 
 
 def check_user_ready_to_start(timer_value):
